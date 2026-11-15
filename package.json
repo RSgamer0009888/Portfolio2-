@@ -1,11 +1,13 @@
 {
   "name": "portfolio2",
-  "version": "0.0.0",
+  "version": "0.0.3",
   "private": true,
-  "scripts": {
+  "scripts":
+  {
     "start": "node ./bin/www"
   },
-  "dependencies": {
+  "dependencies":
+  {
     "@fortawesome/fontawesome-free": "^7.3.1",
     "bootstrap": "^5.3.9",
     "cookie-parser": "~1.4.4",
