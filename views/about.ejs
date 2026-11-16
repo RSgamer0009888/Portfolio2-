@@ -1,6 +1,20 @@
-<%- include('partials/header') %>
 
-<h1><%= title %></h1>
-<p>the about page</p>
+<%- include('partials/header') %>
+<main class="about-page">
+    <article>
+        <h1>About Me</h1>
+
+        <img src="/images/profile.jpg" alt="Profile photo of Your Name" width="200">
+
+        <p>I am a NETSOC student passionate about routing, history, computer hardware, software design, and more.</p>
+        <section>
+            <h2>Video Introduction</h2>
+
+            <video controls poster="/images/poster.jpg" width="600">
+                <source src="/media/intro.mp4" type="video/mp4">
+            </video>
+        </section>
+    </article>
+</main>
 
 <%- include('partials/footer') %>

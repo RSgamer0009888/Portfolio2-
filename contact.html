@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <!-- Viewport tag for mobile devices so they display pages at their own scale-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me - Personal Portfolio</title>
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/mobile.css" media="screen and (max-width: 599px)">
+    <link rel="stylesheet" href="css/tablet.css" media="screen and (min-width: 600px) and (max-width: 1023px)">
+    <link rel="stylesheet" href="css/desktop.css" media="screen and (min-width: 1024px)">
+</head>
+<body>
+    <header>
+        <!-- <nav> tag for navigation links-->
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Me</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contact.html">Contact Me</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!--<section> groups the user submission fields -->
+        <section>
+            <h1>contact Me</h1>
+            <p>Send me your questions and comments.</p>
+            <!-- <form> container for form input and defines submission requirements-->
+            <form action="#" method="post">
+                <div>
+                    <!-- <label> binds text prompts to matching form field input IDs -->
+                    <label for="fullname">Your Name:</label>
+                    <!--<input type="text"> captures data, and required validates -->
+                    <input type="text" id="fullname" name="fullname" required>
+                </div>
+
+                <div>
+                    <label for="email">Your email:</label>
+                    <!-- <input type="email"> provides validation for email formatting-->
+                    <input type="email" id="email" name="email" required>
+                </div>
+
+                <div>
+                    <label for="phone">phone number:</label>
+                    <!--<input type="tel"> prompts phone keypad on mobile-->
+                    <input type="tel" id="phone" name="phone" placeholder="1234567890" required>
+                </div>
+
+                <div>
+                    <label for="comments">Message:</label>
+                    <textarea id="comments" name="comments" rows="5" required></textarea>
+                </div>
+
+                <p><input type="submit" value="Submit"></p>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>Contact: <a href="mailto:seanvilela@gmail.com">seanvilela@gmail.com</a></p>
+        <p>&copy; 2026 Sean Vilela</p>
+    </footer>
+</body>
+</html>
