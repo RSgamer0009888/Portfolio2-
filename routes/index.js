@@ -18,7 +18,15 @@ router.get('/projects', function(req, res, next)
 
 router.get('/contact', function(req, res, next) 
 {
-  res.render('contact', { title: 'Contact Me' });
+  res.render('contact', { title: 'Contact Me', name: null });
+});
+
+router.post('/contact', function(req, res) 
+{
+  res.render('contact', {
+    title: 'Contact Me',
+    name: req.body.fullname
+  });
 });
 
 module.exports = router;
