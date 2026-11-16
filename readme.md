@@ -20,7 +20,7 @@ MEAN slides from course:
 https://www.digitalocean.com/community/tutorials/nodejs-how-to-use__dirname
 - used to help set up relative paths using __dirname and path.join
 
-https://expressjs.com/en/5x/starter/installing/
+https://expressjs.com/en/4x/starter/installing/
 - used for basic setup and guide (excluding .pug files)
 
 https://getbootstrap.com/docs/5.0/getting-started/javascript/
@@ -29,3 +29,7 @@ https://getbootstrap.com/docs/5.0/getting-started/javascript/
 
 https://ejs.co/docs/#includes
 -used for the partials and includes for the header and footer
+
+https://docs.fontawesome.com/web/setup/host-yourself/webfonts/
+- used to learn how to include Font Awesome icons using local css and webfont files
+- referenced for the icon classes used in the nav and footer
